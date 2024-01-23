@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site":"hasho-auth",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
