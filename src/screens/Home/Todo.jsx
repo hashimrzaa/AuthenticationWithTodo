@@ -134,7 +134,7 @@ const Todo = () => {
                   </div>
                 ) : (
                   <div className="flex justify-between flex-wrap border w-[85vw] rounded color">
-                    <div className="p-3">{item.todo}</div>
+                    <div className="p-3 overflow-auto">{item.todo}</div>
                     <div className="flex gap-3 p-2">
                       <button onClick={() => deleteTodo(index)}>Delete</button>
                       <button
